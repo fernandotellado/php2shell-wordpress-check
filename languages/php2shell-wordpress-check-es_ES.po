@@ -1,0 +1,242 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PHP2Shell Check 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/fernandotellado/php2shell-wordpress-check/issues\n"
+"POT-Creation-Date: 2026-10-25 22:00+0000\n"
+"PO-Revision-Date: 2026-10-25 22:00+0000\n"
+"Last-Translator: Fernando Tellado\n"
+"Language-Team: AyudaWP\n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: php2shell-wordpress-check\n"
+
+msgid "PHP2Shell: PHP version"
+msgstr "PHP2Shell: versión de PHP"
+
+msgid "PHP2Shell check"
+msgstr "Comprobación de PHP2Shell"
+
+msgid ""
+"Read from the PHP process that serves this site. Nothing is sent anywhere."
+msgstr ""
+"Datos leídos del proceso de PHP que atiende esta web. No se envía nada a "
+"ninguna parte."
+
+msgid "You have marked the PHP2Shell fixes as confirmed by your host"
+msgstr ""
+"Has marcado las correcciones de PHP2Shell como confirmadas por tu hosting"
+
+msgid ""
+"PHP reports version %s, which is lower than the first fixed releases, but "
+"you told this plugin that your host confirmed the fixes. This plugin cannot "
+"verify that."
+msgstr ""
+"PHP indica la versión %s, inferior a las primeras versiones corregidas, pero"
+" has indicado a este plugin que tu hosting ha confirmado las correcciones. "
+"El plugin no puede comprobarlo."
+
+msgid "Your PHP version includes the PHP2Shell fixes"
+msgstr "Tu versión de PHP incluye las correcciones de PHP2Shell"
+
+msgid ""
+"PHP reports version %1$s, which is equal to or newer than %2$s, the first "
+"release of the %3$s branch with the fixes for CVE-2026-109618 and "
+"CVE-2026-109619. This is the version of the process that is serving this "
+"page."
+msgstr ""
+"PHP indica la versión %1$s, igual o posterior a la %2$s, la primera de la "
+"rama %3$s con las correcciones de CVE-2026-109618 y CVE-2026-109619. Es la "
+"versión del proceso que está sirviendo esta página."
+
+msgid ""
+"PHP reports version %1$s. The %2$s branch is newer than the ones listed in "
+"the PHP advisory (8.2 to 8.5) and includes their fixes."
+msgstr ""
+"PHP indica la versión %1$s. La rama %2$s es más reciente que las del aviso "
+"de PHP (de la 8.2 a la 8.5) e incluye sus correcciones."
+
+msgid "Your PHP version is lower than the one that fixes PHP2Shell"
+msgstr "Tu versión de PHP es inferior a la que corrige PHP2Shell"
+
+msgid ""
+"PHP reports version %1$s, which is lower than %2$s, the first release of the"
+" %3$s branch with the fixes for CVE-2026-109618 and CVE-2026-109619."
+msgstr ""
+"PHP indica la versión %1$s, inferior a la %2$s, la primera de la rama %3$s "
+"con las correcciones de CVE-2026-109618 y CVE-2026-109619."
+
+msgid ""
+"That does not prove your site is exposed. Distributions such as Debian or "
+"Ubuntu ship the fix without changing the version number PHP reports, and "
+"this plugin cannot tell the difference from inside WordPress. Ask your host."
+msgstr ""
+"Eso no demuestra que tu web esté expuesta. Distribuciones como Debian o "
+"Ubuntu incluyen la corrección sin cambiar el número de versión que indica "
+"PHP, y este plugin no puede distinguirlo desde dentro de WordPress. Pregunta"
+" a tu hosting."
+
+msgid "Your PHP branch has no official PHP2Shell fix"
+msgstr "Tu rama de PHP no tiene corrección oficial de PHP2Shell"
+
+msgid ""
+"PHP reports version %s. The PHP project has not released official versions "
+"with the fixes for PHP 8.1 and older (it only published minimal source "
+"patches), so your protection depends on your host applying a backported fix."
+msgstr ""
+"PHP indica la versión %s. El proyecto PHP no ha publicado versiones "
+"oficiales con las correcciones para PHP 8.1 y anteriores (solo parches "
+"mínimos de código fuente), así que tu protección depende de que tu hosting "
+"aplique una corrección retroportada."
+
+msgid ""
+"Ask your host whether they have applied it, or move your site to a supported"
+" PHP version."
+msgstr ""
+"Pregunta a tu hosting si la ha aplicado, o cambia tu web a una versión de "
+"PHP con soporte."
+
+msgid "You are running a pre-release PHP build"
+msgstr "Estás usando una versión de pruebas de PHP"
+
+msgid ""
+"PHP reports version %s, a pre-release build. Pre-release builds are not "
+"meant for production sites."
+msgstr ""
+"PHP indica la versión %s, una versión de pruebas. Las versiones de pruebas "
+"no están pensadas para webs en producción."
+
+msgid "PHP2Shell: the PHP version could not be read"
+msgstr "PHP2Shell: no se ha podido leer la versión de PHP"
+
+msgid "PHP reported the version %s, which this plugin cannot interpret."
+msgstr "PHP ha indicado la versión %s, que este plugin no sabe interpretar."
+
+msgid "Security"
+msgstr "Seguridad"
+
+msgid "Not available (session extension not loaded)"
+msgstr "No disponible (extensión session no cargada)"
+
+msgid "On"
+msgstr "Activado"
+
+msgid "Off"
+msgstr "Desactivado"
+
+msgid "PHP version (running)"
+msgstr "Versión de PHP (en ejecución)"
+
+msgid "First fixed release of this branch"
+msgstr "Primera versión corregida de esta rama"
+
+msgid "None"
+msgstr "Ninguna"
+
+msgid "Result"
+msgstr "Resultado"
+
+msgid "PHP SAPI"
+msgstr "SAPI de PHP"
+
+msgid ".user.ini that sets it"
+msgstr ".user.ini que lo define"
+
+msgid "None found"
+msgstr "Ninguno encontrado"
+
+msgid "Marked as confirmed by your host"
+msgstr "Marcado como confirmado por tu hosting"
+
+msgid "Yes"
+msgstr "Sí"
+
+msgid "No"
+msgstr "No"
+
+msgid "Includes the fixes"
+msgstr "Incluye las correcciones"
+
+msgid "Newer branch than those in the advisory"
+msgstr "Rama más reciente que las del aviso"
+
+msgid "Lower than the fixed release (could be a backported fix)"
+msgstr ""
+"Inferior a la versión corregida (podría haber una corrección retroportada)"
+
+msgid "No official fix for this branch"
+msgstr "Sin corrección oficial para esta rama"
+
+msgid "Pre-release build"
+msgstr "Versión de pruebas"
+
+msgid "Unknown"
+msgstr "Desconocido"
+
+msgid ""
+"This site runs PHP as an Apache module (mod_php). PHP considers it the most "
+"exposed setup, because the attack can succeed before any application code "
+"runs."
+msgstr ""
+"Esta web ejecuta PHP como módulo de Apache (mod_php). PHP lo considera la "
+"configuración más expuesta, porque el ataque puede tener éxito antes de que "
+"se ejecute ningún código de la aplicación."
+
+msgid ""
+"The file %s sets session.upload_progress.enabled. PHP warns that .user.ini "
+"does not take effect in time for this mitigation, so do not count it as "
+"applied: set it in php.ini or in the PHP-FPM pool."
+msgstr ""
+"El archivo %s define session.upload_progress.enabled. PHP advierte de que "
+".user.ini no surte efecto a tiempo para esta mitigación, así que no la des "
+"por aplicada: configúrala en php.ini o en el pool de PHP-FPM."
+
+msgid ""
+"The setting session.upload_progress.enabled is on, which is the PHP default."
+" Turning it off in php.ini or in the PHP-FPM pool is an extra mitigation "
+"recommended by PHP, and the only one it lists for CVE-2026-115560, a third "
+"flaw that has no fixed release yet. It does not replace updating PHP, and on"
+" shared hosting only your host can apply it."
+msgstr ""
+"El ajuste session.upload_progress.enabled está activado, que es el valor por"
+" defecto de PHP. Desactivarlo en php.ini o en el pool de PHP-FPM es una "
+"mitigación adicional que recomienda PHP, y la única que indica para "
+"CVE-2026-115560, un tercer fallo que todavía no tiene versión corregida. No "
+"sustituye a actualizar PHP, y en un hosting compartido solo puede aplicarla "
+"tu hosting."
+
+msgid "Branch 8.2 stopped receiving security fixes on 31 December 2026."
+msgstr ""
+"La rama 8.2 dejó de recibir correcciones de seguridad el 31 de diciembre de "
+"2026."
+
+msgid "Branch 8.2 stops receiving security fixes on 31 December 2026."
+msgstr ""
+"La rama 8.2 dejará de recibir correcciones de seguridad el 31 de diciembre "
+"de 2026."
+
+msgid ""
+"Hello, have you applied the PHP patches for CVE-2026-109618 and "
+"CVE-2026-109619 (PHP 8.2.35, 8.3.36, 8.4.27, 8.5.12 or the equivalent "
+"backported fix) on the servers where my site runs? My site currently reports"
+" PHP %1$s running as %2$s. Can you confirm which package version is "
+"installed and that the PHP processes were restarted after the update?"
+msgstr ""
+"Hola, ¿habéis aplicado ya los parches de PHP para CVE-2026-109618 y "
+"CVE-2026-109619 (PHP 8.2.35, 8.3.36, 8.4.27, 8.5.12 o la corrección "
+"retroportada equivalente) en los servidores donde funciona mi web? Mi web "
+"indica ahora PHP %1$s funcionando como %2$s. ¿Podéis confirmarme qué versión"
+" del paquete hay instalada y que se han reiniciado los procesos de PHP "
+"después de actualizar?"
+
+msgid "A message you can send to your host:"
+msgstr "Mensaje que puedes enviar a tu hosting:"
+
+msgid "Read the PHP security advisory"
+msgstr "Leer el aviso de seguridad de PHP"
+
+msgid "(opens in a new tab)"
+msgstr "(se abre en una pestaña nueva)"
