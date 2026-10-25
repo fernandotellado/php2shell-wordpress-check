@@ -1,0 +1,194 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PHP2Shell Check 1.0.0\n"
+"Report-Msgid-Bugs-To: https://github.com/fernandotellado/php2shell-wordpress-check/issues\n"
+"POT-Creation-Date: 2026-10-25 22:00+0000\n"
+"PO-Revision-Date: 2026-10-25 22:00+0000\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Domain: php2shell-wordpress-check\n"
+
+msgid "PHP2Shell: PHP version"
+msgstr ""
+
+msgid "PHP2Shell check"
+msgstr ""
+
+msgid ""
+"Read from the PHP process that serves this site. Nothing is sent anywhere."
+msgstr ""
+
+msgid "You have marked the PHP2Shell fixes as confirmed by your host"
+msgstr ""
+
+msgid ""
+"PHP reports version %s, which is lower than the first fixed releases, but "
+"you told this plugin that your host confirmed the fixes. This plugin cannot "
+"verify that."
+msgstr ""
+
+msgid "Your PHP version includes the PHP2Shell fixes"
+msgstr ""
+
+msgid ""
+"PHP reports version %1$s, which is equal to or newer than %2$s, the first "
+"release of the %3$s branch with the fixes for CVE-2026-109618 and "
+"CVE-2026-109619. This is the version of the process that is serving this "
+"page."
+msgstr ""
+
+msgid ""
+"PHP reports version %1$s. The %2$s branch is newer than the ones listed in "
+"the PHP advisory (8.2 to 8.5) and includes their fixes."
+msgstr ""
+
+msgid "Your PHP version is lower than the one that fixes PHP2Shell"
+msgstr ""
+
+msgid ""
+"PHP reports version %1$s, which is lower than %2$s, the first release of the"
+" %3$s branch with the fixes for CVE-2026-109618 and CVE-2026-109619."
+msgstr ""
+
+msgid ""
+"That does not prove your site is exposed. Distributions such as Debian or "
+"Ubuntu ship the fix without changing the version number PHP reports, and "
+"this plugin cannot tell the difference from inside WordPress. Ask your host."
+msgstr ""
+
+msgid "Your PHP branch has no official PHP2Shell fix"
+msgstr ""
+
+msgid ""
+"PHP reports version %s. The PHP project has not released official versions "
+"with the fixes for PHP 8.1 and older (it only published minimal source "
+"patches), so your protection depends on your host applying a backported fix."
+msgstr ""
+
+msgid ""
+"Ask your host whether they have applied it, or move your site to a supported"
+" PHP version."
+msgstr ""
+
+msgid "You are running a pre-release PHP build"
+msgstr ""
+
+msgid ""
+"PHP reports version %s, a pre-release build. Pre-release builds are not "
+"meant for production sites."
+msgstr ""
+
+msgid "PHP2Shell: the PHP version could not be read"
+msgstr ""
+
+msgid "PHP reported the version %s, which this plugin cannot interpret."
+msgstr ""
+
+msgid "Security"
+msgstr ""
+
+msgid "Not available (session extension not loaded)"
+msgstr ""
+
+msgid "On"
+msgstr ""
+
+msgid "Off"
+msgstr ""
+
+msgid "PHP version (running)"
+msgstr ""
+
+msgid "First fixed release of this branch"
+msgstr ""
+
+msgid "None"
+msgstr ""
+
+msgid "Result"
+msgstr ""
+
+msgid "PHP SAPI"
+msgstr ""
+
+msgid ".user.ini that sets it"
+msgstr ""
+
+msgid "None found"
+msgstr ""
+
+msgid "Marked as confirmed by your host"
+msgstr ""
+
+msgid "Yes"
+msgstr ""
+
+msgid "No"
+msgstr ""
+
+msgid "Includes the fixes"
+msgstr ""
+
+msgid "Newer branch than those in the advisory"
+msgstr ""
+
+msgid "Lower than the fixed release (could be a backported fix)"
+msgstr ""
+
+msgid "No official fix for this branch"
+msgstr ""
+
+msgid "Pre-release build"
+msgstr ""
+
+msgid "Unknown"
+msgstr ""
+
+msgid ""
+"This site runs PHP as an Apache module (mod_php). PHP considers it the most "
+"exposed setup, because the attack can succeed before any application code "
+"runs."
+msgstr ""
+
+msgid ""
+"The file %s sets session.upload_progress.enabled. PHP warns that .user.ini "
+"does not take effect in time for this mitigation, so do not count it as "
+"applied: set it in php.ini or in the PHP-FPM pool."
+msgstr ""
+
+msgid ""
+"The setting session.upload_progress.enabled is on, which is the PHP default."
+" Turning it off in php.ini or in the PHP-FPM pool is an extra mitigation "
+"recommended by PHP, and the only one it lists for CVE-2026-115560, a third "
+"flaw that has no fixed release yet. It does not replace updating PHP, and on"
+" shared hosting only your host can apply it."
+msgstr ""
+
+msgid "Branch 8.2 stopped receiving security fixes on 31 December 2026."
+msgstr ""
+
+msgid "Branch 8.2 stops receiving security fixes on 31 December 2026."
+msgstr ""
+
+msgid ""
+"Hello, have you applied the PHP patches for CVE-2026-109618 and "
+"CVE-2026-109619 (PHP 8.2.35, 8.3.36, 8.4.27, 8.5.12 or the equivalent "
+"backported fix) on the servers where my site runs? My site currently reports"
+" PHP %1$s running as %2$s. Can you confirm which package version is "
+"installed and that the PHP processes were restarted after the update?"
+msgstr ""
+
+msgid "A message you can send to your host:"
+msgstr ""
+
+msgid "Read the PHP security advisory"
+msgstr ""
+
+msgid "(opens in a new tab)"
+msgstr ""
